@@ -1,0 +1,29 @@
+{
+  "name": "@cubee/components",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "wangyes <wangyes1996@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/components.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@cubee/components.test.js"
+  },
+  "dependencies": {
+    "@cubee/utils": "1.0.0"
+  },
+  "module": "es/index.js",
+  "typings": "es/index.d.ts",
+  "files": [
+    "lib",
+    "es"
+  ]
+}

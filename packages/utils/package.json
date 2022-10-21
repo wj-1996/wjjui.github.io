@@ -1,0 +1,26 @@
+{
+  "name": "@cubee/utils",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "wangyes <wangyes1996@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/utils.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@cubee/utils.test.js"
+  },
+  "module": "es/index.js",
+  "typings": "es/index.d.ts",
+  "files": [
+    "lib",
+    "es"
+  ]
+}
